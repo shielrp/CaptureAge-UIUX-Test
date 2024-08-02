@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905111d94d7ad894d8bb23f1c2f79872, type: 3}
+  m_Name: Elf Fighter
+  m_EditorClassIdentifier: 
+  Name: Elwin Sylph
+  Description: Elwin's kinsfolk were perplexed and bemused when she left home to
+    take up the sword. They thought it may be a 'phase', like ones many a young 100-
+    or 200-year-old elf may go through. However, Elwin is a sure and dedicated as
+    she is deadly.
+  PortraitIcon: {fileID: 0}
+  PreviewImage: {fileID: 0}
+  HitPoints: 6
+  StartingGold: 120
+  AbilityScores:
+    STR: 15
+    DEX: 14
+    CON: 13
+    INT: 9
+    WIS: 7
+    CHA: 10
+  RaceName: Elf
+  RacialAbilityName: Detect Secret Doors
+  RaceMinimumStat:
+    STR: 0
+    DEX: 0
+    CON: 0
+    INT: 9
+    WIS: 0
+    CHA: 0
+  RaceAbilityModifier:
+    STR: 0
+    DEX: 1
+    CON: -1
+    INT: 0
+    WIS: 0
+    CHA: 0
+  ClassName: Fighter
+  HitDiceAmount: 1
+  HitDiceValue: 8
+  PrimaryStat: STR

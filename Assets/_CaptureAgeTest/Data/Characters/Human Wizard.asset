@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905111d94d7ad894d8bb23f1c2f79872, type: 3}
+  m_Name: Human Wizard
+  m_EditorClassIdentifier: 
+  Name: Constance Valentine
+  Description: Constance was born into a noble family and learned magic from a young
+    age... or so she says. One day she awoke into a world where nobody knew her or
+    illustrious family name, and her parents, estate, everything was nowhere to be
+    found. She now searches the world for answers.
+  PortraitIcon: {fileID: 0}
+  PreviewImage: {fileID: 0}
+  HitPoints: 2
+  StartingGold: 80
+  AbilityScores:
+    STR: 9
+    DEX: 9
+    CON: 10
+    INT: 16
+    WIS: 11
+    CHA: 11
+  RaceName: Human
+  RacialAbilityName: 
+  RaceMinimumStat:
+    STR: 0
+    DEX: 0
+    CON: 0
+    INT: 0
+    WIS: 0
+    CHA: 0
+  RaceAbilityModifier:
+    STR: 0
+    DEX: 0
+    CON: 0
+    INT: 0
+    WIS: 0
+    CHA: 0
+  ClassName: Wizard
+  HitDiceAmount: 1
+  HitDiceValue: 4
+  PrimaryStat: INT

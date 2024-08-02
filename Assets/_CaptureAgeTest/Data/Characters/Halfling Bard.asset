@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905111d94d7ad894d8bb23f1c2f79872, type: 3}
+  m_Name: Halfling Bard
+  m_EditorClassIdentifier: 
+  Name: Laret Highberry
+  Description: Laret was happy enough as a small-town celebrity at his local Underhill
+    Tavern. His present state as a magical adventurer was the result of a lost bet,
+    which is a tale he will happily regale you with if you'd only buy him a pint.
+  PortraitIcon: {fileID: 0}
+  PreviewImage: {fileID: 0}
+  HitPoints: 110
+  StartingGold: 3
+  AbilityScores:
+    STR: 7
+    DEX: 13
+    CON: 10
+    INT: 12
+    WIS: 10
+    CHA: 17
+  RaceName: Halfling
+  RacialAbilityName: Initiative Bonus
+  RaceMinimumStat:
+    STR: 0
+    DEX: 9
+    CON: 9
+    INT: 0
+    WIS: 0
+    CHA: 0
+  RaceAbilityModifier:
+    STR: -1
+    DEX: 1
+    CON: 0
+    INT: 0
+    WIS: 0
+    CHA: 0
+  ClassName: Bard
+  HitDiceAmount: 1
+  HitDiceValue: 6
+  PrimaryStat: CHA
