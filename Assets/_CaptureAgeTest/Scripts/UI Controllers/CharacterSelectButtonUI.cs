@@ -70,6 +70,7 @@ namespace RPG_CharacterSelect.UI
         public void Select()
         {
             OnSelected?.Invoke(_associatedCharacter);
+            _btn.Select();
         }
 
     }

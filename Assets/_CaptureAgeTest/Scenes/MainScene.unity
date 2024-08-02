@@ -592,6 +592,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180457793}
+  - component: {fileID: 180457795}
+  - component: {fileID: 180457794}
   m_Layer: 5
   m_Name: BG Image
   m_TagString: Untagged
@@ -618,6 +620,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &180457794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180457792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 23c3fb68f51e9be4bbb1744c60e38f98, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &180457795
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180457792}
+  m_CullTransparentMesh: 1
 --- !u!1001 &232406272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -831,10 +871,6 @@ PrefabInstance:
     - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 475
       objectReference: {fileID: 0}
     - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1476,10 +1512,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 475
-      objectReference: {fileID: 0}
-    - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
       propertyPath: m_SizeDelta.y
       value: 120
       objectReference: {fileID: 0}
@@ -1592,15 +1624,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.53333336}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: d97f10292debcde45a9d53b455e869db, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1608,7 +1640,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.5
 --- !u!222 &554303297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3074,10 +3106,6 @@ PrefabInstance:
     - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 475
       objectReference: {fileID: 0}
     - target: {fileID: 7630181794929146659, guid: e7c201c2e0deb074a9f7b7dd67fa43e7, type: 3}
       propertyPath: m_SizeDelta.y
