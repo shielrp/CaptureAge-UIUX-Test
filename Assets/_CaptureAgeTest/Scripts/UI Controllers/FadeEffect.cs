@@ -36,21 +36,27 @@ namespace RPG_CharacterSelect.UI
         {
             _img.color = new Color(FadeColor.r, FadeColor.g, FadeColor.b, 1f);
             _img.enabled = true;
+            IsPlaying = true;
 
             DOTween.Sequence()
                 .Append(_img.DOFade(0f, FadeTime).SetEase(FadeEase))
                 .AppendCallback(() => _img.enabled = false)
-                .AppendCallback(() => EffectFinished?.Invoke());
+                .AppendCallback(() => EffectFinished?.Invoke())
+                .AppendCallback(() => IsPlaying = false);
         }
 
         public void FadeOut()
         {
             _img.color = new Color(FadeColor.r, FadeColor.g, FadeColor.b, 0f);
             _img.enabled = true;
+            IsPlaying = true;
 
             DOTween.Sequence()
                 .Append(_img.DOFade(1f, FadeTime).SetEase(FadeEase))
-                .AppendCallback(() => EffectFinished?.Invoke());;
+                .AppendCallback(() => EffectFinished?.Invoke())
+                .AppendCallback(() => IsPlaying = false);
         }
+        
+        public bool IsPlaying { get; private set; }
     }
 }

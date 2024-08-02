@@ -11,6 +11,8 @@ namespace RPG_CharacterSelect.UI
 
         public void DoEffect()
         {
+            if (Fader.IsPlaying) return;
+            
             Fader.FadeTime = EffectLength;
             
             Fader.EffectFinished.AddListener(FinishEffect);
