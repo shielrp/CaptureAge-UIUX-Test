@@ -17,8 +17,8 @@ MonoBehaviour:
     age... or so she says. One day she awoke into a world where nobody knew her or
     illustrious family name, and her parents, estate, everything was nowhere to be
     found. She now searches the world for answers.
-  PortraitIcon: {fileID: 0}
-  PreviewImage: {fileID: 0}
+  PortraitIcon: {fileID: 21300000, guid: 98f787aad945b904b8b8988dd141e4df, type: 3}
+  PreviewImage: {fileID: 21300000, guid: 02d5f17066db90b4fafeeb47804b7755, type: 3}
   HitPoints: 2
   StartingGold: 80
   AbilityScores:

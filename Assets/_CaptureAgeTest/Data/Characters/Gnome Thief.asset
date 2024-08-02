@@ -15,8 +15,8 @@ MonoBehaviour:
   Name: Ronan Whistlebelt
   Description: 'Ronan uses the deceptive hardiness and celverness of a gnome somewhat...
     unconventionally: to make himself and his associates richer by unscrupulous means.'
-  PortraitIcon: {fileID: 0}
-  PreviewImage: {fileID: 0}
+  PortraitIcon: {fileID: 21300000, guid: 3625843cefd58b24c8e046c9df934b06, type: 3}
+  PreviewImage: {fileID: 21300000, guid: 4f75bb08a6a1339499c1d9e6367dbedd, type: 3}
   HitPoints: 3
   StartingGold: 120
   AbilityScores:

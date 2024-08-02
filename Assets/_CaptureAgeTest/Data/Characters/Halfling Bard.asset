@@ -16,8 +16,8 @@ MonoBehaviour:
   Description: Laret was happy enough as a small-town celebrity at his local Underhill
     Tavern. His present state as a magical adventurer was the result of a lost bet,
     which is a tale he will happily regale you with if you'd only buy him a pint.
-  PortraitIcon: {fileID: 0}
-  PreviewImage: {fileID: 0}
+  PortraitIcon: {fileID: 21300000, guid: 35739fa900259b54191ea243120f7026, type: 3}
+  PreviewImage: {fileID: 21300000, guid: 4f86225dbb819394dbfb36d335ef2bb6, type: 3}
   HitPoints: 110
   StartingGold: 3
   AbilityScores:

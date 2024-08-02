@@ -17,8 +17,8 @@ MonoBehaviour:
     take up the sword. They thought it may be a 'phase', like ones many a young 100-
     or 200-year-old elf may go through. However, Elwin is a sure and dedicated as
     she is deadly.
-  PortraitIcon: {fileID: 0}
-  PreviewImage: {fileID: 0}
+  PortraitIcon: {fileID: 21300000, guid: 18e2e0be7ae0308439d8833de1f4aaef, type: 3}
+  PreviewImage: {fileID: 21300000, guid: 2f573c3cc554d454ab171d64c447f4c8, type: 3}
   HitPoints: 6
   StartingGold: 120
   AbilityScores:

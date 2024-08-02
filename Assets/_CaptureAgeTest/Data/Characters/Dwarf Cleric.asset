@@ -16,8 +16,8 @@ MonoBehaviour:
   Description: Centuries of hard work have hardened this dwarf's battle prowess -
     and his faith - to adamantium. He has dedicated his life to ridding the world
     of the undead.
-  PortraitIcon: {fileID: 0}
-  PreviewImage: {fileID: 0}
+  PortraitIcon: {fileID: 21300000, guid: 74dc831e2b970304ea3455c0a1a55437, type: 3}
+  PreviewImage: {fileID: 21300000, guid: 3c35805ccc865d644945acfb04d7ea18, type: 3}
   HitPoints: 7
   StartingGold: 70
   AbilityScores:
