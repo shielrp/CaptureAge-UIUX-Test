@@ -1,12 +1,13 @@
 ﻿using System;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace RPG_CharacterSelect.UI
 {
     [RequireComponent(typeof(Image))]
-    public class FadeInEffect : MonoBehaviour
+    public class FadeEffect : MonoBehaviour
     {
 
         public float FadeTime;
@@ -16,6 +17,8 @@ namespace RPG_CharacterSelect.UI
 
         private Image _img;
 
+        public UnityEvent EffectFinished;
+
         private void Awake()
         {
             _img = GetComponent<Image>();
@@ -24,19 +27,30 @@ namespace RPG_CharacterSelect.UI
         private void Start()
         {
             if (PlayOnStart)
-                PlayEffect();
+                FadeIn();
             else
                 _img.enabled = false;
         }
 
-        public void PlayEffect()
+        public void FadeIn()
         {
             _img.color = new Color(FadeColor.r, FadeColor.g, FadeColor.b, 1f);
             _img.enabled = true;
 
             DOTween.Sequence()
                 .Append(_img.DOFade(0f, FadeTime).SetEase(FadeEase))
-                .AppendCallback(() => _img.enabled = false);
+                .AppendCallback(() => _img.enabled = false)
+                .AppendCallback(() => EffectFinished?.Invoke());
+        }
+
+        public void FadeOut()
+        {
+            _img.color = new Color(FadeColor.r, FadeColor.g, FadeColor.b, 0f);
+            _img.enabled = true;
+
+            DOTween.Sequence()
+                .Append(_img.DOFade(1f, FadeTime).SetEase(FadeEase))
+                .AppendCallback(() => EffectFinished?.Invoke());;
         }
     }
 }
